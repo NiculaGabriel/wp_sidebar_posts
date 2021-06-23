@@ -1,0 +1,153 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+body .sidebar-on {
+
+}
+body .sidebar-on .sidebar {
+    border: 1px solid #fff;
+    padding: 10px 30px 10px 0px;
+    max-height: 565px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body .sidebar-on .sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+body .sidebar-on .sidebar::-webkit-scrollbar-track {
+    background: #fff;
+}
+ 
+body .sidebar-on .sidebar::-webkit-scrollbar-thumb {
+    background-color: #d72653;
+}
+body .sidebar-on .widget-title {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+body .sidebar-on .title-posts-widget { 
+	font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0px;
+    border-left: 3px solid #ffffff;
+    padding-left: 10px;
+    color: #d72653;
+    margin: 10px 10px 10px 30px;
+}
+body .sidebar-on ul { 
+
+}
+body .sidebar-on ul.active {
+	height: auto;
+}
+body .sidebar-on ul p.icon-drop-down {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+body .sidebar-on ul li p.icon-drop-down:after {
+content: "";
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #f97596;
+    		transform: rotate(-130deg);
+       -moz-transform: rotate(-130deg);
+    -webkit-transform: rotate(-130deg);
+    left: -6px;
+    position: relative;
+
+    -webkit-box-shadow: 0px 1px 1px #ff054524;
+       -moz-box-shadow: 0px 1px 1px #ff054524;
+    	 -o-box-shadow: 0px 1px 1px #ff054524;
+    		box-shadow: 0px 1px 1px #ff054524;
+}
+body .sidebar-on ul li p.icon-drop-down:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #d72653;     
+       		transform: rotate(130deg);
+       -moz-transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    position: relative;
+    top: 2px;
+
+    -webkit-box-shadow: 0px 1px 1px #ff054524;
+       -moz-box-shadow: 0px 1px 1px #ff054524;
+    	 -o-box-shadow: 0px 1px 1px #ff054524;
+    		box-shadow: 0px 1px 1px #ff054524;
+}
+body .sidebar-on ul.node.active > li > p.icon-drop-down:after {
+content: "";
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #f97596;
+    		transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: -6px;
+    position: relative;
+}
+body .sidebar-on ul.node.active > li > p.icon-drop-down:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #d72653;     
+       		transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: relative;
+    top: 2px;
+}
+body .sidebar-on ul li {
+    list-style-type: none;
+    margin: 0px;
+    position: relative;
+}
+body .sidebar-on ul li a {
+	text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+body .sidebar-on ul li a.self {
+    color: #d72653;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px #ff05452b;
+}
+body .sidebar-on ul {
+    height: 35px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+	-webkit-transition: height 2s;
+	   -moz-transition: height 2s;
+		-ms-transition: height 2s;
+		 -o-transition: height 2s;
+			transition: height 2s;
+}
+body .sidebar-on ul.node.active
+{
+	height: auto;
+}
+body .sidebar-on ul.root > li {
+	background: #ffffff;
+    padding: 5px 0px 10px 15px;
+    border-bottom: 0px solid #f5efe0;
+    border-top: 2px solid #f5efe0;
+}
+body .sidebar-on ul li ul li{
+
+}
