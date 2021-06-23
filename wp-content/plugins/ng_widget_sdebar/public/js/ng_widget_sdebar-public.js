@@ -44,7 +44,7 @@ window.addEventListener('load', function(){
 				return ( document.querySelectorAll('.icon-drop-down') ? document.querySelectorAll('.icon-drop-down') : false );
 			},
 			iterateAllArrowItems:function(list) {
-				if(list && list.length){
+				if(list && list.length) {
 					for( var i in list ){
 						if(list[i].tagName == 'P') {
 							this.addClickEvent(list[i]);
